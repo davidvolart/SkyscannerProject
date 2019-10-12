@@ -9,23 +9,23 @@
     <title>Skyscanner hackupc19!</title>
 </head>
 <body style="background:url('https://www.worldatlas.com/r/w728-h425-c728x425/upload/fb/46/c6/shutterstock-311421530.jpg'); background-size:cover;">
-    <h1 style="margin-top:20%; margin-left:2%;">Where to next?</h1>
+    <h1 style="margin-top:20%; margin-left:2%; font-size: 52px;">Where to next?</h1>
     <form method="POST" action="{{route('find')}}" class="card" style="margin-top:1%;background-color:darkblue; margin-left:0.5%;margin-right:0.5%">
         @csrf
         <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="from">From</label>
+            <div class="form-group col-md-3" style="margin-left:1%;">
+                <label for="from" style="color:white;">From</label>
                 <input type="text" class="form-control" id="from" name="from" placeholder="Coutry, city, airport" aria-describedby="basic-addon1" required>
             </div>
-            <div class="form-group col-md-4">
-                <label for="to">To</label>
+            <div class="form-group col-md-3">
+                <label for="to" style="color:white;">To</label>
                 <input type="text" class="form-control" id="to" name="to" placeholder="Coutry, city, airport" aria-describedby="basic-addon1">
             </div>
             <div class="form-group col-md-2">
-                <label for="depart">Depart</label>
+                <label for="depart" style="color:white;">Depart</label>
                 <input type="date" class="form-control" id="depart" name="depart" aria-describedby="basic-addon1" required>
             </div>
-            <div class="form-group col-md-2">
+            <div class="form-group col-md-3">
                 <label></label>
                 <button id="submit" class="btn btn-lg btn-primary form-control form-control-lg" type="submit">
                     Send
