@@ -13,7 +13,6 @@ class FlightsController extends Controller
 {
     public function find(Request $request){
 
-
         $from = $request->input("from");
         $to = $request->input("to");
         $departure = $request->input("depart");
