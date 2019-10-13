@@ -1,5 +1,6 @@
 # SkyscannerProject
-Ecofriendly flight searcher
+
+SkyscannerProject is a project that allow you to find flight based on their pollution, so it is an Ecofriendly flight searcher
 
 ## Inspiration
 
