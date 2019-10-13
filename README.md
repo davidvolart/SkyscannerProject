@@ -22,7 +22,7 @@ Some problems to develop initial ideas due to API is not as we expected to.
 We learned everything, PHP(Laravel) and Bootstrap.
 
 ## What's next for SkyscannerProject
-Solve some errors, improve the code, add some other functionalities.
+Fix some errors, improve the code, add some other functionalities.
 
 ## Built With
 This project has been built by PHP(laravel) and Bootstrap
